@@ -1,0 +1,44 @@
+{
+  "abstention": "6/6",
+  "agreement": "48/48",
+  "agreement_pct": 100.0,
+  "by_category": {
+    "clean": {
+      "agree": 12,
+      "total": 12
+    },
+    "fabrication": {
+      "agree": 6,
+      "total": 6
+    },
+    "injection": {
+      "agree": 6,
+      "total": 6
+    },
+    "insufficient": {
+      "agree": 6,
+      "total": 6
+    },
+    "misrouted": {
+      "agree": 8,
+      "total": 8
+    },
+    "pause": {
+      "agree": 4,
+      "total": 4
+    },
+    "remediation": {
+      "agree": 6,
+      "total": 6
+    }
+  },
+  "fabrication_blocked": "6/6",
+  "false_holds": 0,
+  "false_resolves": 0,
+  "gates": "48/48",
+  "injection_blocked": "6/6",
+  "mode": "stub",
+  "pause": "4/4",
+  "spend_usd": 0.0,
+  "total": 48
+}

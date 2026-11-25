@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msp-triage-agent"
+version = "0.1.0"
+description = "Bounded MSP service-desk triage agent: one-sentence ticket intake to a confirmed, on-policy resolution draft, with a deterministic guardrail and human gates."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+live = ["anthropic>=0.40"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
